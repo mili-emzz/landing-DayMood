@@ -3,8 +3,10 @@ import Button from '@/app/components/shared/button';
 
 export default function Hero() {
     return (
-        <section className="w-full min-h-screen flex items-center justify-center bg-gradient-to-b from-white to-pink-50">
+        
+        <section className="w-full min-h-screen flex bg-gradient-to-b from-white to-pink-50">
             <div className="flex items-center justify-between gap-8 px-6 py-12 max-w-7xl w-full">
+            
                 <div className="hidden lg:flex flex-1">
                     <div className="relative w-full h-96">
                         <Image
