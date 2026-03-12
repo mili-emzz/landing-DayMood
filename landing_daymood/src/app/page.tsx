@@ -1,9 +1,9 @@
-import Hero from "./landing/hero/hero";
+import Landing from "./landing/Landing";
 
 export default function Home() {
   return (
     <main>
-      <Hero></Hero>
+      <Landing />
     </main>
   );
 }
