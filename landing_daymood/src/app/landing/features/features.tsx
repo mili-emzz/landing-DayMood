@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Features() {
     return (
-        <section className="relative w-full h-screen bg-[#F9EDED] overflow-hidden flex flex-col justify-between">
+        <section className="relative w-full h-[65vh] md:h-[70vh] lg:h-[100vh] bg-[#F9EDED] overflow-hidden flex flex-col justify-between">
 
             <div className="w-full px-6 md:px-12 lg:px-20 pt-12 md:pt-20 z-30">
                 <h1 className="text-4xl lg:text-[4.5rem] font-bold text-black leading-[1] tracking-tight text-left">

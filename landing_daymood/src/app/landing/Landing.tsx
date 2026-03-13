@@ -21,13 +21,13 @@ export default function Landing() {
                 }
             `}</style>
 
-            <div className="snap-start w-full h-screen">
+            <div className="snap-start w-full">
                 <Hero />
             </div>
-            <div className="snap-start w-full h-screen">
+            <div className="snap-start w-full">
                 <Features />
             </div>
-            <div className="snap-start w-full h-screen">
+            <div className="snap-start w-full">
                 <Footer />
             </div>
         </div>
