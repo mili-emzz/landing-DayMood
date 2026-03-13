@@ -2,16 +2,17 @@
 import React, { useRef } from 'react';
 import Hero from './hero/hero';
 import Features from './features/features';
+import Footer from './footer/footer';
 
 export default function Landing() {
 
     return (
-        <div 
+        <div
             className="w-full h-screen overflow-y-auto overflow-x-hidden snap-y snap-mandatory"
-            style={{ 
+            style={{
                 scrollBehavior: 'smooth',
-                msOverflowStyle: 'none', 
-                scrollbarWidth: 'none' 
+                msOverflowStyle: 'none',
+                scrollbarWidth: 'none'
             }}
         >
             <style jsx>{`
@@ -19,12 +20,15 @@ export default function Landing() {
                     display: none;
                 }
             `}</style>
-            
+
             <div className="snap-start w-full h-screen">
                 <Hero />
             </div>
             <div className="snap-start w-full h-screen">
                 <Features />
+            </div>
+            <div className="snap-start w-full h-screen">
+                <Footer />
             </div>
         </div>
     );
