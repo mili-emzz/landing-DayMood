@@ -31,7 +31,9 @@ export default function Footer() {
                                 <li className="cursor-pointer hover:underline">
                                     <Link href="/info/about">Nuestro equipo</Link>
                                 </li>
-                                <li className="cursor-pointer">Aviso de privacidad</li>
+                                <li className="cursor-pointer hover:underline">
+                                    <Link href="/info/terms">Términos y condiciones</Link>
+                                </li>
                                 <li className="cursor-pointer">Manual de Usuario</li>
                             </ul>
                         </div>
